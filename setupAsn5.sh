@@ -12,7 +12,7 @@ then
   exit -2
 fi
 
-(curl -Ls https://raw.githubusercontent.com/jeffshantz/cs3342-2019-asn5starter/master/asn5.tar.gz > ./asn5.tar.gz)
+(curl -Ls https://github.com/jeffshantz/cs3342-2019-asn5starter/raw/master/asn5.tar.gz > ./asn5.tar.gz)
 
 tar zxvf asn5.tar.gz
 rm asn5.tar.gz
